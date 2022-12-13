@@ -1,0 +1,5 @@
+{
+    "open-in-browser.default": "Microsoft Edge",
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.NoBrowser": true
+}

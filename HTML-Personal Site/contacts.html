@@ -9,8 +9,7 @@
 </head>
 <body>
 <h1>Contact Me</h1>
-<p>Need to get in touch with us? Fill out the form below and we will get back to you as soon as possible.</p>
-
+<p>Need to get in touch with me? Fill out the form below and I will get back to you as soon as possible.</p>
 <form action ="send-message.php" method="post">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br>
@@ -25,6 +24,20 @@
 </form>
 <a href="courses.html"><h3>Cover Letter</h3></a>
 <a href="index.html"><h3>Home Page</h3></a>
+<hr color="brown">
+
+<form action="mailto:eomondimanu024@mail.com" method="post" enctype="text/plain">
+    <label>Your Name</label>
+    <input type="text" name="YourName" value="">
+    <label >Do you want to Sing up for the email list?</label>
+    <input type="checkbox"><br>
+    <label> Your Email:</label>
+    <input type="email" name="YourEmail">
+    <label for="password">Password</label>
+    <input type="password" name="YourPassword">
+    <textarea name="YourMessage" cols="30" rows="10"></textarea>
+    <input type="submit" name="">
+</form>
 
 </body>
 </html>

@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+body{
+    background-color: azure;
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-display: block;
+}
+
+img{
+    justify-content: center;
+    object-position: 50% 50%;
+}

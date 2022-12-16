@@ -1,3 +1,5 @@
+/***************************TAG SELECTORS********************/
+
 h1{
     color: red;
     font-size: 80px;
@@ -17,7 +19,26 @@ p{
     font-display: block;
 }
 
-img{
-    justify-content: center;
-    object-position: 50% 50%;
+img:hover{
+    background-color: gold;
+}
+
+/****************************CLASS SELECTORS**********************/
+
+.bacon{
+    background-color: red;
+}
+
+.broccoli{
+    background-color: green;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/*********************ID SELECTORS****************************************/
+
+#heading{
+    color: blue;
 }

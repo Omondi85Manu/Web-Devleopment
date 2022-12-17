@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    text-align: center;
 }
 
 h1{
@@ -9,7 +10,8 @@ h1{
 /************************CLASS SELECTOR********************************/
 .top-container {
     background-color: #E4F9F5;
-    
+    position: relative;
+    padding-top: 100px;
 }
 .middle-container{
     background-color: blue;
@@ -21,4 +23,20 @@ h1{
     background-color: rebeccapurple;
     height: 200px;
     width: 200px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }

@@ -20,7 +20,11 @@ p{
 }
 
 img:hover{
-    background-color: gold;
+    background-color: gold;   
+}
+img{
+    margin-left: 200px;
+    position: relative;
 }
 
 /****************************CLASS SELECTORS**********************/

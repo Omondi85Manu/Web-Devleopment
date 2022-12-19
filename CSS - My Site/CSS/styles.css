@@ -1,29 +1,68 @@
 body{
     margin: 0px;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1{
-    margin-top: 0px;
+    font-size: 562.5%;
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+    color: #11999E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #d1d1d1;
+    border-width: 15px;
+    width: 10%;
 }
 
 /************************CLASS SELECTOR********************************/
 .top-container {
-    background-color: #E4F9F5;
+    background-color: #E4F6F6;
     position: relative;
     padding-top: 100px;
 }
 .middle-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    
 }
 
 .bottom-container{
-    background-color: rebeccapurple;
-    height: 200px;
-    width: 200px;
+    background-color: #66BFBF;
+    position: relative;
+    padding: 80px;
+    margin-top: 100px;
+    color: #EAF6F6;
 }
+
+.profile-pic{
+    margin-top: 100px;
+    padding: auto;
+    width: 15%;  
+}
+.hello-description, .contact-paragraph {
+    color: #40514E;
+    width: 50%;
+    margin: 10px auto 60px auto;
+    text-align: center;
+    line-height: 2;
+}  
 
 .pro{
     text-decoration: underline;
@@ -40,3 +79,66 @@ h1{
     right: 300px;
     top: 50px;
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.prog-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.comp-img{
+    width: 25%;
+    float: right;
+   margin-left: 30px;
+}
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 4px 3px #666666;
+  -moz-box-shadow: 2px 4px 3px #666666;
+  box-shadow: 2px 4px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.footer-link{
+    color: #11999E;
+    padding: 0 50px 30px;
+    word-wrap: normal;
+    display: inline-block;
+}
+
+/****** The Clear Property******/
+/*.code-skill-description{
+    clear:left ;
+}
+.career-objective{
+    clear: right;
+}*/
